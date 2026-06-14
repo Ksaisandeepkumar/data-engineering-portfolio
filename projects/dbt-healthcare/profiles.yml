@@ -1,0 +1,7 @@
+dbt_healthcare:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: healthcare.duckdb
+      threads: 1

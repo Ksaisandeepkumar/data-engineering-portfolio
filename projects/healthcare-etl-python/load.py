@@ -1,3 +1,1 @@
-# load.py
-
-print("Loading data into database...")
+print("Loading transformed patient data into warehouse...")

@@ -1,0 +1,10 @@
+{
+  "name": "pipeline_healthcare_etl",
+  "properties": {
+    "description": "Placeholder ADF pipeline definition for healthcare ETL",
+    "activities": [],
+    "annotations": ["placeholder"],
+    "parameters": {},
+    "concurrency": 1
+  }
+}

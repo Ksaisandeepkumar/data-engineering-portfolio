@@ -1,0 +1,9 @@
+{
+  "name": "LinkedServiceStorage",
+  "type": "AzureBlobStorage",
+  "properties": {
+    "typeProperties": {
+      "connectionString": "UseKeyVaultOrSecretHere"
+    }
+  }
+}

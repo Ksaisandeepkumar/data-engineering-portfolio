@@ -1,6 +1,6 @@
-# Sai Sandeep
+# Sai Sandeep - Data Engineering Portfolio
 
-Aspiring Data Engineer
+Aspiring Data Engineer building hands-on projects using SQL, Python, Pandas, PySpark, and Airflow.
 
 ## Skills
 
@@ -9,26 +9,67 @@ Aspiring Data Engineer
 - Pandas
 - PySpark
 - Apache Airflow
-- Databricks
-- Azure
-- AWS
+- ETL Pipelines
+- Data Cleaning
+- Healthcare Analytics
+- GitHub
 
 ## Projects
 
-### SQL Interview Prep
-SQL practice covering joins, aggregations, CTEs, and window functions.
+### 1. SQL Interview Prep
+SQL practice covering:
+- Joins
+- GROUP BY
+- HAVING
+- CTEs
+- Window Functions
+- RANK
+- DENSE_RANK
+- LAG
+- LEAD
+- Running Total
 
-### Healthcare Claims Pipeline
-Healthcare claims analytics project using SQL.
+### 2. Healthcare Claims Pipeline
+Healthcare analytics project using SQL.
 
-### Healthcare ETL Python
-Extract, Transform, Load workflow using Python.
+Includes:
+- Patients
+- Providers
+- Claims
+- Diagnoses
+- Provider claim reports
+- Patient claim summaries
 
-### Healthcare Pandas
-Data analysis and transformation using Pandas.
+### 3. Healthcare ETL Python
+Simple ETL pipeline using Python.
 
-### PySpark Healthcare Pipeline
-Distributed healthcare data processing using PySpark.
+Flow:
+Extract CSV data → Transform data → Load output
 
-### Airflow Healthcare Pipeline
-Workflow orchestration using Apache Airflow.
+### 4. Healthcare Pandas
+Data analysis project using Pandas.
+
+Includes:
+- Reading CSV files
+- Basic DataFrame processing
+- Patient data analysis
+
+### 5. PySpark Healthcare Pipeline
+Distributed data processing project using PySpark.
+
+Flow:
+CSV → Spark DataFrame → Transformations → Output
+
+### 6. Airflow Healthcare Pipeline
+Workflow orchestration project using Apache Airflow.
+
+Flow:
+Extract → Transform → Generate Report → Load
+
+## Portfolio Goal
+
+This portfolio shows beginner-to-intermediate data engineering skills through practical healthcare and SQL projects.
+
+## Contact
+
+GitHub: Ksaisandeepkumar

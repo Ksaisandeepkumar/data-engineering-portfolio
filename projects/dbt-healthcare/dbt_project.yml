@@ -1,0 +1,7 @@
+name: dbt_healthcare
+version: 1.0.0
+profile: dbt_healthcare
+
+models:
+  dbt_healthcare:
+    +materialized: view

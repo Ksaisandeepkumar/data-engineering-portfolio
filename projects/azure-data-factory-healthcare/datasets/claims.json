@@ -1,0 +1,25 @@
+{
+  "name": "dataset_claims",
+  "properties": {
+    "linkedServiceName": {
+      "referenceName": "LinkedServiceStorage",
+      "type": "LinkedServiceReference"
+    },
+    "type": "DelimitedText",
+    "typeProperties": {
+      "location": {
+        "type": "AzureBlobStorageLocation",
+        "fileName": "claims.csv"
+      },
+      "columnDelimiter": ",",
+      "firstRowAsHeader": true
+    },
+    "schema": [
+      { "name": "claim_id", "type": "Int64" },
+      { "name": "patient_id", "type": "Int64" },
+      { "name": "provider_id", "type": "Int64" },
+      { "name": "claim_amount", "type": "Decimal" },
+      { "name": "claim_date", "type": "String" }
+    ]
+  }
+}

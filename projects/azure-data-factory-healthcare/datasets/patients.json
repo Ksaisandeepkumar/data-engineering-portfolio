@@ -1,0 +1,16 @@
+{
+  "name": "dataset_patients",
+  "properties": {
+    "type": "DelimitedText",
+    "linkedServiceName": {
+      "referenceName": "LinkedServiceStorage",
+      "type": "LinkedServiceReference"
+    },
+    "schema": [
+      { "name": "patient_id", "type": "String" },
+      { "name": "patient_name", "type": "String" },
+      { "name": "age", "type": "String" },
+      { "name": "gender", "type": "String" }
+    ]
+  }
+}

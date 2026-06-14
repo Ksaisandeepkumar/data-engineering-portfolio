@@ -1,75 +1,99 @@
 # Sai Sandeep - Data Engineering Portfolio
 
-Aspiring Data Engineer building hands-on projects using SQL, Python, Pandas, PySpark, and Airflow.
+## About
 
-## Skills
+Aspiring Data Engineer focused on building reliable pipelines and turning raw data into business-ready analytics.
+
+## Core Skills
 
 - SQL
 - Python
 - Pandas
-- PySpark
+- PySpark (Spark SQL)
 - Apache Airflow
-- ETL Pipelines
-- Data Cleaning
-- Healthcare Analytics
-- GitHub
+- ETL / ELT
+- Data modeling basics (star schema thinking)
+- Healthcare analytics
+- Git / GitHub
 
 ## Projects
 
-### 1. SQL Interview Prep
-SQL practice covering:
-- Joins
-- GROUP BY
-- HAVING
+### 1) SQL Interview Prep (`projects/sql-interview-prep`)
+
+Purpose: quick, readable SQL practice covering the most common Data Engineer interview patterns.
+
+Topics covered:
+- SELECT / WHERE
+- JOINs
+- GROUP BY / HAVING
+- CASE WHEN
 - CTEs
-- Window Functions
-- RANK
-- DENSE_RANK
-- LAG
-- LEAD
-- Running Total
+- Window functions: ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD
+- Running totals
 
-### 2. Healthcare Claims Pipeline
-Healthcare analytics project using SQL.
+### 2) Healthcare Claims Pipeline (`projects/healthcare-claims-pipeline`)
 
-Includes:
+Purpose: simulate a simple healthcare data model and run reporting queries.
+
+Entities:
 - Patients
 - Providers
 - Claims
 - Diagnoses
-- Provider claim reports
-- Patient claim summaries
 
-### 3. Healthcare ETL Python
-Simple ETL pipeline using Python.
+Example outputs:
+- provider claims reports
+- patient claim summaries
+- claim-level detail views
+- top patients by total spend
+
+### 3) Healthcare ETL Python (`projects/healthcare-etl-python`)
+
+Purpose: show the ETL flow in a minimal, readable way.
 
 Flow:
-Extract CSV data → Transform data → Load output
-
-### 4. Healthcare Pandas
-Data analysis project using Pandas.
+Extract CSV → Transform → Load
 
 Includes:
-- Reading CSV files
-- Basic DataFrame processing
-- Patient data analysis
+- `extract.py`
+- `transform.py`
+- `load.py`
 
-### 5. PySpark Healthcare Pipeline
-Distributed data processing project using PySpark.
+### 4) Healthcare Pandas (`projects/healthcare-pandas`)
 
-Flow:
-CSV → Spark DataFrame → Transformations → Output
+Purpose: practice analyst-style transformations with Pandas.
 
-### 6. Airflow Healthcare Pipeline
-Workflow orchestration project using Apache Airflow.
+Tasks practiced:
+- CSV ingestion
+- DataFrame inspection
+- basic cleaning + grouping
 
-Flow:
-Extract → Transform → Generate Report → Load
+### 5) PySpark Healthcare Pipeline (`projects/PySpark Healthcare Pipeline`)
 
-## Portfolio Goal
+Purpose: show scalable, distributed processing fundamentals.
 
-This portfolio shows beginner-to-intermediate data engineering skills through practical healthcare and SQL projects.
+Includes:
+- reading CSV to DataFrame
+- creating derived columns (e.g., age groups)
+- writing out results
+
+### 6) Airflow Healthcare Pipeline (`projects/Airflow Healthcare Pipeline`)
+
+Purpose: show orchestration and DAG mindset.
+
+DAG flow:
+Extract → Transform → Generate report → Load
+
+---
+
+## How to Read This Portfolio
+
+If you’re a recruiter or hiring manager, start here:
+- The README gives a fast overview
+- Each project folder has its own README and code
 
 ## Contact
 
-GitHub: Ksaisandeepkumar
+- GitHub: https://github.com/Ksaisandeepkumar
+- Location: Fort Worth, TX
+- Role target: Data Engineer / Junior Data Engineer  

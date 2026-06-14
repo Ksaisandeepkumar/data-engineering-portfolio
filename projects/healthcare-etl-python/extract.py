@@ -1,8 +1,11 @@
-# extract.py
+import csv
 
-patients = [
-    {"patient_id": 1, "name": "Sai", "age": 24},
-    {"patient_id": 2, "name": "John", "age": 45}
-]
+patients = []
+
+with open("sample_patients.csv", "r") as file:
+    reader = csv.DictReader(file)
+
+    for row in reader:
+        patients.append(row)
 
 print(patients)
